@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ape-Doro</title>
-    <!--Me falta lo  de la imagen del  logo-->
+    <title>ApeDoro</title>
+    <link rel="icon" type="image/png" href="Imagenes/Logo.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!--Conecta con fontawesome-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,7 +29,7 @@
                 </ul>
             </div>
             <div class="nav-center">
-                <a href="#">Ape-Doro</a>
+                <a href="#"><img src="Imagenes/Logo.png" alt="" style="height: 4%; width: 8%;"></a>
             </div>
             <div class="nav-right">
                 <ul>
@@ -193,7 +193,7 @@
     <footer>
         <div class="footer-content" id="pie">
             <div class="footer-logo">
-                <h2>Ape-Doro</h2>
+                <img src="Imagenes/Logo.png" alt="" style="height: 50%; width: 50%;">
             </div>
             <div class="footer-links">
                 <ul>
@@ -214,6 +214,18 @@
             <p>&copy; 2024 ApeDoro. Todos los derechos reservados.</p>
         </div>
     </footer>
+    <!-- Popup al cargar -->
+<div id="popup" class="popup">
+    <div class="popup-content">
+      <h2>¿Cómo querés que te contactemos?</h2>
+      <div class="popup-buttons">
+        <a href="https://wa.me/XXXXXXXXXXX" target="_blank" class="popup-btn whatsapp">WhatsApp</a>
+        <a href="#" class="popup-btn newsletter">Suscribirme</a>
+      </div>
+      <button id="closePopup" class="popup-close">✖</button>
+    </div>
+  </div>
+  
     <script src="script.js"></script>
 </body>
 </html>
